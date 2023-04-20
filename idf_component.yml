@@ -1,0 +1,5 @@
+version: 1.0.0
+description: "This is a driver for SGM41510 Chip."
+
+dependencies: 
+  idf: ">=4.4"

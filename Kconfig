@@ -1,0 +1,19 @@
+menu "SGM41510 Li-ion Manager Chip Driver"
+
+    config SGM41510_CM_R
+        int "Resistance (Ohm) at CM Pin."
+        default 10000
+        help
+            SGM41510 CM resistance at the pin, expressed in ohms.
+
+    config SGM41510_I2C_SLAVE_ADDR
+        hex "SGM41510 I2C Slave Address"
+        default 0x6B
+
+    config SGM41510_I2C_CLK_FREQ
+        int "SGM41510 I2C Bus Clock Frequency"
+        default 100000
+        help
+            SGM41510 i2c bus clock speed(frequency)
+
+endmenu
