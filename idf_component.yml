@@ -1,5 +1,6 @@
 version: 1.0.0
 description: "This is a driver for SGM41510 Chip."
+url: "https://github.com/Augtons/esp_power_sgm41512"
 
 dependencies: 
   idf: ">=4.4"
